@@ -1,0 +1,79 @@
+#titulo {
+   color: brown;     
+}
+.texto:hover {
+   color: blue;
+}
+p.especial {
+   color: aqua;
+}
+div p {
+   color:  blanchedalmond;
+}
+* {
+   font-size: 24px;
+}
+#titulo {
+/*    border: 5px red ridge; */
+      border-style: solid;
+      border-color: blue;
+      border-radius: 5px;
+      border-width: 1px;
+}
+#fondo  {
+   background-color: rgba(255,0,0);
+   /*opacity: 0.3;*/
+   height: 200px;
+   background: #f00 url("images.jpg") no-repeat center bottom /200px 200px;
+   }
+   .margen{
+      font-size: 50px;
+      background-color: gray;
+      margin: auto;
+     /* padding: 30px 25px 10px 5px ;*/
+      border: solid 2px black;
+      height: 100px;
+      width: 400px;
+   }
+   .text {
+      text-align: center;
+      font-family: "roboto";
+      font-size: 50px;
+      text-decoration: underline;
+      text-shadow: 3px 5px 5px blue;
+    }
+    a:link {
+       color: blueviolet;
+       }
+    a:visited {
+          color: darkcyan;
+       }
+    a:hover {
+       color: yellow;
+    }
+    a:active{
+       color: red;
+    }
+    ul {
+       background-color: aqua;
+       list-style-type: none;
+       padding-left: 0;
+    }
+    table {
+       width: 100%;
+       border-collapse: collapse;
+    }
+    th, td {
+       border: solid 1px #eee;
+       padding: 5px;
+       text-align: left;
+       }
+       th {
+          background-color: #f00;
+          color: black;
+       }
+    tr:hover {
+       background-color: azure;
+    }
+
+      
