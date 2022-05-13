@@ -74,6 +74,7 @@ div p {
        }
     tr:hover {
        background-color: azure;
+       cursor: pointer;
     }
 
       
