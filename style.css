@@ -72,9 +72,27 @@ div p {
           background-color: #f00;
           color: black;
        }
+       tr:nth-child(even) {
+         background-color: darkgrey;
+       }
+     
     tr:hover {
-       background-color: azure;
+       background-color: darkgreen;
        cursor: pointer;
     }
-
+   span {
+      display: block;
+      /*display: none;*/ 
+      max-width: 300px;
+      background-color: #f00;
+}
+   .inline {
+      display: inline;
+   }
+   #position {
+      /*position: relative;*/
+      position: sticky;
+      left: 30px;
+      top: 25px;
+ }
       
