@@ -1,3 +1,6 @@
+html {
+   font-family: 'Roboto', sans-serif;
+}
 #titulo {
    color: brown;     
 }
@@ -95,4 +98,30 @@ div p {
       left: 30px;
       top: 25px;
  }
+   .left {
+      float: left;
+      width: 200px;
+      height: 200px;
+   }
+   .right {
+      float: right;
+   }
+
+   .container {
+      height: 200px;
+   }
+   .card {
+      border: solid 1px #eee;
+      border-radius: 5px;
+      margin: 0 15px;
+      padding: 10px 15px;
       
+   }
+   .center {
+      padding: 50px 0;
+      text-align: center;
+      width: 200px;
+      margin: 0 auto;
+      background-color: aqua;
+      
+   }
